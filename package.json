@@ -1,5 +1,5 @@
 {
-  "setup": "npm jsdom",
+  "setup": "install jsdom",
   "private": true,
   "version": "0.0.0",
   "name": "example",
