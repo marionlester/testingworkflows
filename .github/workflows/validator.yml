@@ -3,7 +3,7 @@ run-name: HTML5 Validator
 on: [push]
 jobs:
   #check-bats-version:
-  html5validator-action: 
+  Cyb3r-Jak3:
    runs-on: ubuntu-latest
    steps:
     - uses: Cyb3r-Jak3/html5validator-action@v7.2.0
