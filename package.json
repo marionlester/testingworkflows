@@ -1,14 +1,14 @@
 {
-  "test": [
-    {
-      "name": "test",
-      "setup": "npm install",
-      "run": "npm test.js",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 10
-    }
-  ]
+  "private": true,
+  "version": "0.0.0",
+  "name": "example",
+  "devDependencies": {
+    "@babel/core": "*",
+    "@babel/preset-env": "*",
+    "babel-jest": "*",
+    "jest": "*"
+  },
+  "scripts": {
+    "test": "jest"
+  }
 }
