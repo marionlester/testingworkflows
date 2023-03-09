@@ -8,13 +8,18 @@
     "babel-jest": "*",
     "jest": "*"  
 },
-    "tests": [
+    "jdom": [
     {
       "name": "jdom",
-      "setup": "npm install --save jdom"
+      "setup": "npm install --save jdom"      
     }
   ],
-  
+    "xmlhttprequest": [
+    {
+      "name": "xmlhttprequest",
+      "setup": "npm install xmlhttprequest"      
+    }
+  ],  
   "private": true,
   "version": "3.2.5",
   "name": "jdom",
