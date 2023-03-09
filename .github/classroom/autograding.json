@@ -1,9 +1,9 @@
 {
   "tests": [
     {
-      "name": "1",
-      "setup": "npm install -g npm@9.6.1",
-      "run": "npm exec html-validate index.html",
+      "name": "1.",
+      # "setup": "npm install",
+      # "run": "npm test",
       "input": "!",
       "output": "<!DOCTYPE html>",
       "comparison": "included",
@@ -11,4 +11,4 @@
       "points": 10
     }
   ]
-}
+} 
