@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "npm install -g npm@9.6.1",
+      "run": "npm exec html-validate index.html",
+      "input": "!",
+      "output": "<!DOCTYPE html>",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
