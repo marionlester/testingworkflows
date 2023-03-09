@@ -8,6 +8,6 @@ jobs:
       - uses: Cyb3r-Jak3/html5validator-action@v7.2.0
         with:
           # Path of the files to test
-          root: .github/workflows/index.html
+          root: .github/workflows/index.html/
 
 
