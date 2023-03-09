@@ -1,9 +1,3 @@
-import {
-   domFactory, svgFactory,
-   on, once, off, dispatch,
-   style
-} from 'jdom';
-
 const fs = require('fs');
 const path = require('path');
 const { JSDOM } = require('jsdom');
