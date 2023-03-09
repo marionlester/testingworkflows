@@ -7,7 +7,7 @@
     "@babel/preset-env": "*",
     "babel-jest": "*",
     "jest": "*"  
-  ,
+  },
   
   "private": true,
   "version": "3.2.5",
@@ -15,6 +15,7 @@
   "devDependencies": {
     "jdom": "*",
   },
+    
   "scripts": {
     "test": "jest"
   }
