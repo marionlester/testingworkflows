@@ -2,12 +2,13 @@ name: HTML5 Validator
 run-name: HTML5 Validator
 on: [push]
 jobs:
-  check-bats-version:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Cyb3r-Jak3/html5validator-action@v7.2.0
-        with:
-          # Path of the files to test
-          root: .github/workflows/index.html/
+  #check-bats-version:
+  validator: 
+   runs-on: ubuntu-latest
+   steps:
+    - uses: Cyb3r-Jak3/html5validator-action@v7.2.0
+      with:
+        # Path of the files to test
+        root: .github/workflows/index.html/
 
 
