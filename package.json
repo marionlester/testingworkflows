@@ -1,6 +1,4 @@
 {
-  "setup": "npm install jsdom", 
-  "setup": "npm install jsdom",
   "private": true,
   "version": "0.0.0",
   "name": "example",
@@ -8,7 +6,9 @@
     "@babel/core": "*",
     "@babel/preset-env": "*",
     "babel-jest": "*",
-    "jest": "*"
+    "jest": "*"    
+    "jsdom": "*"    
+    "xmlhttprequest": "*"
   },
   "scripts": {
     "test": "jest"
