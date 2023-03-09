@@ -1,9 +1,7 @@
 {
   "tests": [
     {
-      "name": "1.",
-      # "setup": "npm install",
-      # "run": "npm test",
+      "name": "1."
       "input": "!",
       "output": "<!DOCTYPE html>",
       "comparison": "included",
