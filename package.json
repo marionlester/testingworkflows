@@ -3,7 +3,7 @@
     {
       "name": "test",
       "setup": "npm install",
-      "run": "npm test",
+      "run": "npm test.js",
       "input": "",
       "output": "",
       "comparison": "included",
