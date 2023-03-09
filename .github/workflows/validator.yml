@@ -2,9 +2,18 @@ name: HTML5 Validator
 run-name: HTML5 Validator
 on: [push]
 jobs:
-  build:
-    name: Validator
+  check-bats-version:
     runs-on: ubuntu-latest
     steps:
-    - name: HTML5 Validator
-    - uses: Cyb3r-Jak3/html5validator-action@v7.2.0
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+      - run: npm install -g bats
+      - run: bats -v
+      - uses: Cyb3r-Jak3/html5validator-action@v7.2.0
+        with:
+          # Path of the files to test
+          root: index.html
+
+
