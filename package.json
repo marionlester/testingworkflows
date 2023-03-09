@@ -8,6 +8,12 @@
     "babel-jest": "*",
     "jest": "*"  
 },
+    "tests": [
+    {
+      "name": "jdom",
+      "setup": "npm install --save jdom"
+    }
+  ],
   
   "private": true,
   "version": "3.2.5",
