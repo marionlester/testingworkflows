@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { JSDOM } = require('jsdom');
+const { JSDOM } = require('./jsdom.js');
 
 test('no erroneous tags', () => {
   const filename = 'index.html'; // make sure the HTML file is named index.html
