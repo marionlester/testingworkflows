@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "test",
-      "setup": "npm install",
+      "setup": "npm install --save jdom",
       "run": "npm test",
       "input": "",
       "output": "",
